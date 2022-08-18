@@ -79,3 +79,12 @@ input[type="submit"]:hover {
   border-left: 5px solid var(--secondary);
   background: var(--background-light);
 }
+.doclist {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+.my__view {
+  padding: 30px;
+}

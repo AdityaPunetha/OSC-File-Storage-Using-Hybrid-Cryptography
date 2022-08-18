@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 
 function LoginPage() {
   const [errorMessages, setErrorMessages] = useState({});
@@ -38,6 +38,7 @@ function LoginPage() {
         setErrorMessages({ name: "pass", message: errors.pass });
       } else {
         setIsSubmitted(true);
+        window.location.href = "/home";
       }
     } else {
       // Username not found
