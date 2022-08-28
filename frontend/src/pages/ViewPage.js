@@ -11,11 +11,11 @@ function UploadDoc() {
         </Form.Label>
         <Form.Control
           style={{ padding: "25px" }}
-          type="text"
+          type="file"
           className="input"
           // value={value}
           onChange={() => {}}
-          placeholder="Upload Document"
+          // placeholder="Upload Document"
         />
       </Form.Group>
 
@@ -32,9 +32,7 @@ function ViewPage() {
       <div className="container">
         <h1 className="text-center mb-4">View Page</h1>
         <UploadDoc />
-        <div>
-          <List />
-        </div>
+        <List />
       </div>
     </div>
   );

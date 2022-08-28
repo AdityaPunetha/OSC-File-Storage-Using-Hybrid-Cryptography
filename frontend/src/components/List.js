@@ -19,11 +19,18 @@ function Doc({ name }) {
 
 function List() {
   return (
-    <Card>
-      <Card.Body>
-        <Doc name={"First doc"} />
-      </Card.Body>
-    </Card>
+    <div>
+      <Card>
+        <Card.Body>
+          <Doc name={"First doc"} />
+        </Card.Body>
+      </Card>
+      <Card>
+        <Card.Body>
+          <Doc name={"Second doc"} />
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 
